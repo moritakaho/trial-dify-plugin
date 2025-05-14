@@ -1,0 +1,30 @@
+identity:
+  name: trial_plugin
+  author: m
+  label:
+    en_US: trial_plugin
+    zh_Hans: trial_plugin
+    pt_BR: trial_plugin
+description:
+  human:
+    en_US: trial
+    zh_Hans: trial
+    pt_BR: trial
+  llm: trial
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: Query string
+      zh_Hans: 查询语句
+      pt_BR: Query string
+    human_description:
+      en_US: trial
+      zh_Hans: trial
+      pt_BR: trial
+    llm_description: trial
+    form: llm
+extra:
+  python:
+    source: tools/trial_plugin.py

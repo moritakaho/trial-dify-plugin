@@ -1,0 +1,17 @@
+identity:
+  author: m
+  name: trial_plugin
+  label:
+    en_US: trial_plugin
+    zh_Hans: trial_plugin
+    pt_BR: trial_plugin
+  description:
+    en_US: trial
+    zh_Hans: trial
+    pt_BR: trial
+  icon: icon.svg
+tools:
+  - tools/trial_plugin.yaml
+extra:
+  python:
+    source: provider/trial_plugin.py
