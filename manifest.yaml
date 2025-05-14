@@ -1,6 +1,6 @@
 version: 0.0.1
 type: plugin
-author: m
+author: moritakaho
 name: trial_plugin
 label:
   en_US: trial_plugin
